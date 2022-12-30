@@ -260,11 +260,6 @@ a:hover {
     padding-top: 0.3125rem;
   }
 }
-@media (max-width: 991.98px) {
-  .header {
-    padding-top: 0.625rem;
-  }
-}
 
 .header__container {
   display: flex;
@@ -2073,12 +2068,6 @@ label span {
 .header-popup-2__button {
   padding: 0.9375rem;
   text-align: center;
-}
-.header-popup-2__button span {
-  display: inline-block;
-  transform: rotate(0);
-}
-.header-popup-2__button a {
   display: inline-block;
   color: #ffffff;
   font-weight: 500;
@@ -2088,14 +2077,19 @@ label span {
   margin-right: 0.5625rem;
 }
 @media (min-width: 768px) {
-  .header-popup-2__button a {
+  .header-popup-2__button {
     font-size: calc(21px + -6 * (100vw / 1190));
   }
 }
 @media (min-width: 1190px) {
-  .header-popup-2__button a {
+  .header-popup-2__button {
     font-size: 15px;
   }
+}
+.header-popup-2__button span {
+  display: inline-block;
+  transform: rotate(0);
+  margin: 0;
 }
 
 .popup-3__label {

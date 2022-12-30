@@ -224,9 +224,6 @@ a:hover {
    @media (max-width: 991.98px) {
       padding-top: rem(5);
    }
-   @media (max-width: 991.98px) {
-      padding-top: rem(10);
-   }
 }
 .header__container {
    display: flex;
@@ -1697,20 +1694,20 @@ label span {
 .header-popup-2__button {
    padding: rem(15);
    text-align: center;
+   display: inline-block;
+   color: #ffffff;
+   font-weight: 500;
+   @include adaptiv-text(15, 21);
+   letter-spacing: -0.03em;
+   line-height: calc(14.5 / 15);
+   margin-right: rem(9);
    span {
       display: inline-block;
       transform: rotate(0);
-   }
-   a {
-      display: inline-block;
-      color: #ffffff;
-      font-weight: 500;
-      @include adaptiv-text(15, 21);
-      letter-spacing: -0.03em;
-      line-height: calc(14.5 / 15);
-      margin-right: rem(9);
+      margin: 0;
    }
 }
+
 // ..........................................POPUP-3...............................................
 .popup-3__label {
    background-color: #eaeaea;
