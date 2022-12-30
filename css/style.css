@@ -260,6 +260,11 @@ a:hover {
     padding-top: 0.3125rem;
   }
 }
+@media (max-width: 991.98px) {
+  .header {
+    padding-top: 0.625rem;
+  }
+}
 
 .header__container {
   display: flex;
