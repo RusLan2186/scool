@@ -2091,6 +2091,12 @@ label span {
   transform: rotate(0);
   margin: 0;
 }
+@media (max-width: 767.98px) {
+  .header-popup-2__button span {
+    position: relative;
+    top: 0.125rem;
+  }
+}
 
 .popup-3__label {
   background-color: #eaeaea;
@@ -2168,6 +2174,12 @@ label span {
 .header-popup-3__button span {
   transform: rotate(0);
 }
+@media (max-width: 767.98px) {
+  .header-popup-3__button span {
+    position: relative;
+    top: 0.125rem;
+  }
+}
 
 .popup-4__label {
   width: 9.5rem;
@@ -2229,5 +2241,11 @@ label span {
 @media (max-width: 403.98px) {
   .header-popup-3__button:nth-child(1) p {
     display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .header-popup-3__button span {
+    position: relative;
+    top: 0.125rem;
   }
 }

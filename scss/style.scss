@@ -1705,6 +1705,10 @@ label span {
       display: inline-block;
       transform: rotate(0);
       margin: 0;
+      @media (max-width: 767.98px) {
+         position: relative;
+         top: rem(2);
+      }
    }
 }
 
@@ -1757,6 +1761,10 @@ label span {
    text-align: center;
    span {
       transform: rotate(0);
+      @media (max-width: 767.98px) {
+         position: relative;
+         top: rem(2);
+      }
    }
 }
 // .....................................................POPUP-4.......................................
@@ -1807,6 +1815,12 @@ label span {
    &:nth-child(1) p {
       @media (max-width: 403.98px) {
          display: none;
+      }
+   }
+   span {
+      @media (max-width: 767.98px) {
+         position: relative;
+         top: rem(2);
       }
    }
 }
