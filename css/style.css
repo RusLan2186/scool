@@ -255,6 +255,11 @@ a:hover {
   width: 100%;
   z-index: 50;
 }
+@media (max-width: 991.98px) {
+  .header {
+    padding-top: 0.3125rem;
+  }
+}
 
 .header__container {
   display: flex;
@@ -1052,11 +1057,13 @@ iframe {
 @media (max-width: 991.98px) {
   .steps__items {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 0.625rem;
   }
 }
 @media (max-width: 767.98px) {
   .steps__items {
     grid-template-columns: 1fr;
+    row-gap: 0rem;
   }
 }
 
