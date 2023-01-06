@@ -15,6 +15,8 @@ const headerLinks = document.querySelectorAll('.header__menu')
 headerLinks.forEach((el) => {
    el.addEventListener('click', () => {
       $('.header__burger,.header__menu').toggleClass('active');
+      $('body').toggleClass('lock');
+      $('.header__burger, .page, .header__logo').toggleClass('opacity');
    })
 })
 
